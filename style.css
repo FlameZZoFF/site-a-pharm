@@ -18,9 +18,7 @@ a {
   flex-direction: column;
   margin-right: 100px;
 }
-.footer-address{
 
-}
 .appear{
   opacity: 1 !important;
   transform: translateX(0) !important;
@@ -488,7 +486,7 @@ ul {
   .footer-address {
     font-family: Inter, sans-serif;
     margin-left: 100px;
-    margin-bottom: 20px;
+    
     flex-grow: 1;
     flex-basis: auto;
     margin-left: 380px;
@@ -637,6 +635,7 @@ ul {
     
   }
   .footer-address{
+    margin-bottom: 20px;
     font-size: 10px;
   }
 }

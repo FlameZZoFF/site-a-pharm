@@ -2,7 +2,25 @@ a {
   text-decoration: none; /* Убирает подчеркивание */
   color: inherit; /* Наследует цвет текста от родительского элемента */
 }
+.responsive-br2{
+  display: none;
+}
+.responsive-br{
+  display: none;
+}
 
+.numbers_headers{
+  display: flex;
+  flex-direction: column;
+}
+.phones_footer{
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.footer-address{
+
+}
 .appear{
   opacity: 1 !important;
   transform: translateX(0) !important;
@@ -614,6 +632,15 @@ ul {
   }
 }
 
+@media (max-width:1275px){
+  .footer-email-address{
+    
+  }
+  .footer-address{
+    font-size: 10px;
+  }
+}
+
 @media (max-width:1090px){
   .services-image-wrapper{
     max-width: 400px;
@@ -673,9 +700,19 @@ ul {
   .service-expand{
     font-size: 40px;
   }
+  .footer-email{
+    margin-left: 180px;
+    
+  }
+  .responsive-br2{
+    display: block;
+  }
 }
 
 @media(max-width:928px){
+  .responsive-br{
+    display: block;
+  }
   .header{
     width: 700px;
   }
@@ -705,6 +742,10 @@ ul {
   }
   .footer-logo{
     width: 200px;
+  }
+  .footer-email{
+    margin-left: 0px;
+    
   }
 }
 
@@ -814,7 +855,10 @@ ul {
     display: none;
   }
   .footer-email{
-    margin-right: 40px;
+    margin-left: 0px;
+  }
+  .footer-info{
+    width: 100px;
   }
   .language-selector{
     margin-left: 25px;
@@ -876,11 +920,21 @@ ul {
   .hero-person{
     height: 1110px;
    }
+   .footer-email{
+    margin-left: 150px;
+    justify-content: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+   }
+   .footer-email-icon{
+    margin-left: 20px;
+   }
 }
 
 @media(max-width:451px){
   .header{
-    width: 350px;
+    width: 370px;
     margin-right: 130px;
     margin-bottom: 500px;
   }
@@ -899,9 +953,15 @@ ul {
   .service-description{
     font-size: 10px;
   }
+  .footer-content{
+    padding-right: 50px;
+  }
 }
 
 @media(max-width:429px){
+  .footer-email{
+    margin-left: 120px;
+  }
   .header{
     width: 300px;
   }
@@ -927,7 +987,9 @@ ul {
   .hero-title{
     font-size: 27px;
   }
-  
+  .footer-content{
+    padding-right: 50px;
+  }
   .footer-content{
     margin-right: 50px;
   }

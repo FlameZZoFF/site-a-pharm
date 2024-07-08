@@ -13,7 +13,7 @@ function saveSelectedLanguage(lang) {
 
 // Функция для загрузки выбранного языка из localStorage
 function loadSelectedLanguage() {
-    return localStorage.getItem('selectedLanguage') || 'EN';
+    return localStorage.getItem('selectedLanguage') || 'SK';
 }
 
 // Функция для отображения контента на основе выбранного языка
